@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RyanBacherPortfolioWebsite</title>
+    <link rel="stylesheet" href="style.css\">
+    <script src="https://kit.fontawesome.com/f3a9155144.js" crossorigin="anonymous"></script>
+</head>
+<!--start of the about header of website in html contians all of the stuff about hte homepage portfolio and hoving over it and such //-->
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <p class="fakeLogo"> Ry<span>an.</span></p>
+                <ol>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Services</a> </li>
+                    <li><a href="#">Portfolio</a> </li>
+                    <li><a href="#">Contact</a> </li>
+                </ol>
+            </nav>
+            <div class="header-text">
+                <p>Comptuer Science Undergradute </p>
+                <h1>Hi, I'm <span>Ryan</span><br> Bacher!  </h1>
+            </div>
+        </div>
+    </div>
+<!--start of the about page and section of website in html//-->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/CopperBowl.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="aboutme-paragraph">
+                        I am orgianlly from Southern California (Los Alamitos), currently now I attend
+                        Colorado State University, set to graduate in Spring 2026. I am Computer Science
+                        Major here, and have had a passion for programming since highschool. I enjoy any action
+                        sport I can get my hands on and afford. That being said I conside myself as  very outgoing
+                        person and openminded to pretty much anything. Sidenote I love to cook and enjoy meals with
+                        family and freinds.
+                    </p>
+                    <!--start of tabe sections for under about me//-->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Data Structures and Applications</li>
+                            <li><span>Python</span><br>Basic Python Knowledge</li>
+                            <li><span>HTML & CSS</span><br>Front End Developement for websites</li>
+                            <li><span>IT</span><br>Currently employed by CSU as IT student Professional</li>
+                        </ul>
+                    </div>
+                    <!--start of tabe sections for under about me this one is expericne the one above is skills//-->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2024</span><br>2 course both 4 credit and full semster class with java and implemenetation at CSU </li>
+                            <li><span>2022-2024</span><br>1 course 4 credit Python and Implemntion, 1 semster of being a Undergradute Teaching assiant for this class as well.</li>
+                            <li><span>2022-current</span><br>Founder of RamHack, which is Computer Science Club at CSU, we promote collaborative programming and real world readiness for the world of technology</li>
+                            <li><span>2022-current</span><br>Self taught HTML and CSS, RamHack help with my growth of HTML and CSS</li>
+                            <li><span>2023-2026</span><br>Intership Working as an IT Student Professional under the Vice President of Research at CSU Began Softemore Year through graduation date</li>
+                        </ul>
+                    </div>
+
+                    <!--Education informoatio//-->
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2018-2022</span><br>Gradated with GED from Los Alamitos High School accumlative GPA 4.2</li>
+                            <li><span>2022-Curent</span><br>Undergratuate at CSU with Major in Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Services section //-->
+     <div class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-chrome fa-spin"></i>
+                        <h2> Web Design</h2>
+                        <p>Experience designing for front end websites in HTML and CSS also have experience with javascrpit</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+                <div>
+                    <i class="fa-solid fa-child-reaching fa-beat"></i>
+                    <h2> Teaching and Leadership</h2>
+                    <p>Having taugh coding and STEM materical from ages kindergradent to college, being a Teacher Assisant and Working for CodeNinjas has help myself gain knowledge on how to
+                    teach all ages of people and lead a group. That being said, being a founder of a RamHack this keeps me striving everyday to be come a strong and more passionate leader</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-computer fa-bounce"></i>
+                    <h2> IT Support</h2>
+                    <p>Having this internship working in the IT department for the Vice President Research at CSU, I deal with both hardware and software for website, reaserach project, and mainly
+                    anything at CSU that has a need for IT and help</p>
+                    <a href="#">Learn more</a>
+                </div>
+                </div>
+            </div>
+     </div>
+
+    <!-- portfolio section of the website//-->
+    <div class="porfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/codeninjas.png.jpg">
+                    <div class="layer">
+                        <h3>CodeNinjas</h3>
+                        <p>Working for CodeNinjas has taught me many valueable skills for teaching ages 5-13. Teaching them STEM project
+                        as well as simple coding helped my self in the felid of computer science overall. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/2023UTAteamphoto.PNG">
+                    <div class="layer">
+                        <h3>2023 TA Team Photo for 150B</h3>
+                        <p>Working as a Undergradute Teaching Asistant for a previous class I have taken for one
+                        of my favorite professor Elisa Cunediff. Teahcing fellow college students at CSU show me that teaching
+                        programming and explaing programs to students helps me understand programming languages more overall. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/junoandme.png.jpg">
+                    <div class="layer">
+                        <h3>JUNO!</h3>
+                        <p>I just love juno som much and will edit when i find something to put here but for now JUNO!</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- the contact section of the page with my email and linkdln and such--->
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>ryanrbacher@gmail.com</p>
+                    <p><i class="fa-solid fa-comment-sms"></i>562-357-9171</p>
+                    <div class="social-icons">
+                        <a href="www.linkedIn.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascripit for the content of skills education expericene//-->
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+</body>
+</html>
